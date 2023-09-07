@@ -1,7 +1,7 @@
 {
-  "name": "api",
+  "name": "api-endpoint",
   "version": "1.0.0",
-  "description": "An API endpoint that displays the current GMT time",
+  "description": "An API endpoint that displays my profile on Zuri HNG Internship",
   "main": "api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/leoemaxie/api-endpoint.git"
   },
   "keywords": [
-    "api"
+    "api", "endpoint"
   ],
   "author": "Leo Emaxie",
   "license": "MIT",
