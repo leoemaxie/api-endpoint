@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
         track,
         github_repo_url: "https://github.com/leoemaxie/api-endpoint",
         github_file_url: "https://github.com/leoemaxie/api-endpoint/blob/main/api.js",
-        status_code: "200"
+        status_code: 200
     }
     res.json(response);
 });
