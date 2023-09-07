@@ -7,7 +7,7 @@ app.get('/api', (req, res) => {
     const response = {
         slack_name,
         current_day: new Date().toLocaleDateString('en-US', {weekday: 'long'}),
-        utc_time: new Date().toISOString(),
+        utc_time: new Date().toISOString().replace(/.\d{3}Z$/, 'Z'),
         track,
         github_repo_url: "https://github.com/leoemaxie/api-endpoint",
         github_file_url: "https://github.com/leoemaxie/api-endpoint/blob/main/api.js",
