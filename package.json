@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "An API endpoint that displays the current GMT time",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoemaxie/api-endpoint.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Leo Emaxie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoemaxie/api-endpoint/issues"
+  },
+  "homepage": "https://github.com/leoemaxie/api-endpoint#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
